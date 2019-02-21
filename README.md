@@ -1,10 +1,18 @@
-# revealjs-cookbook
+# Revealjs Cookbook
 
 Revealjs Cookbook
+
+A markdown file as a ppt/slides using Revealjs.
+
+Live Demo as a template. http://blog.ant-abel.com/revealjs-cookbook/
 
 ## VSCode Extension
 
 [vscode-reveal](https://github.com/evilz/vscode-reveal)
+
+- sample as a reference: https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md
+
+View it in vscode and export it from the extension as a static site.
 
 ## Deploying a subfolder to GitHub Pages
 
@@ -14,6 +22,7 @@ For the sake of this example, let’s pretend the subfolder containing your site
 
 ### Step 1
 
+Make sure no other changes in master branch.
 Remove the `dist` directory from the project’s `.gitignore` file. That mean original `dist` is ignored in master branch.
 
 ### Step 2
