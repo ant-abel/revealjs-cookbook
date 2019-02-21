@@ -4,7 +4,7 @@ Revealjs Cookbook
 
 A markdown file as a ppt/slides using Revealjs.
 
-Live Demo as a template. http://blog.ant-abel.com/revealjs-cookbook/
+My Live Demo as a template. http://blog.ant-abel.com/revealjs-cookbook/
 
 ## VSCode Extension
 
@@ -12,7 +12,7 @@ Live Demo as a template. http://blog.ant-abel.com/revealjs-cookbook/
 
 - sample as a reference: https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md
 
-View it in vscode and export it from the extension as a static site.
+View it in vscode and export it from the extension as a static site. My live demo is come from here.
 
 ## Deploying a subfolder to GitHub Pages
 
