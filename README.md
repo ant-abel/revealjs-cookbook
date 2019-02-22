@@ -65,15 +65,15 @@ Run above shell as below:
 bash bin/git-deploy-gh-pages.sh dist
 ```
 
-## Cmd for Deployment
+## Deployment Steps for This Repo
 
-1. Copy source folder to exoprt folder
+1. Run `bash bin/copy-sources-to-export.sh` to copy source folder to exoprt folder
 
 ```bash
+#!/bin/sh
 rm -rf export
 cp -r sources/. export
 ```
 
-2. Remove gitignore for `export/` folder temporarily.
-
-3. Run `bash bin/git-deploy-gh-pages.sh export`
+1. Remove gitignore for `export/` folder temporarily.
+1. Run `bash bin/git-deploy-gh-pages.sh export`
