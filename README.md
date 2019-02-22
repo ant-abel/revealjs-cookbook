@@ -54,7 +54,7 @@ then
   echo "Which folder do you want to deploy to GitHub Pages?"
   exit 1
 fi
-git add $1 && git commit -m "Initial folder as a subtree commit"
+git add $1 && git commit -m "update dist folder as a subtree commit"
 git subtree push --prefix $1 origin gh-pages
 ```
 
@@ -62,5 +62,18 @@ Run above shell as below:
 
 ```sh
 # if file path is bin/git-deploy-gh-pages.sh
-bash bin/git-deploy-gh-pages.sh export
+bash bin/git-deploy-gh-pages.sh dist
 ```
+
+## Cmd for Deployment
+
+1. Copy source folder to exoprt folder
+
+```bash
+rm -rf export
+cp -r sources/. export
+```
+
+2. Remove gitignore for `export/` folder temporarily.
+
+3. Run `bash bin/git-deploy-gh-pages.sh export`
