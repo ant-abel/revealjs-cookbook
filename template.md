@@ -1,8 +1,8 @@
 ---
-theme: 'League'
-# Black (default) - White - League - Sky - Beige - Simple - Serif - Blood - Night - Moon - Solarized
+theme: 'league'
+# Black (default) - white - league - sky - beige - simple - serif - blood - night - moon - solarized
 transition: 'convex'
-# None - Fade - Slide - Convex - Concave - Zoom
+# none - fade - slide - convex - concave - zoom
 highlightTheme: 'darkula'
 logoImg: './img/saplogo.png'
 slideNumber: true
