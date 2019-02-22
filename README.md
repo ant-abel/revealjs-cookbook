@@ -45,7 +45,7 @@ Boom. If your folder isn’t called `dist`, then you’ll need to change that in
 
 ---
 
-If you do this on a regular basis, you could also create a script](https://github.com/cobyism/dotfiles/blob/master/bin/git-gh-deploy as following:
+If you do this on a regular basis, you could also create a script as following:
 
 ```sh
 #!/bin/sh
