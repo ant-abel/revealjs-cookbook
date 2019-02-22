@@ -77,3 +77,10 @@ bash bin/git-deploy-gh-pages.sh dist
 
 2. Remove gitignore for `export/` folder temporarily.
 3. Run `bash bin/git-deploy-gh-pages.sh export`
+
+> git push origin `git subtree split --prefix dist master`:gh-pages --force
+
+1. git checkout master # you can avoid this line if you are in master...
+2. git subtree split --prefix dist -b gh-pages # create a local gh-pages branch containing the splitted output folder
+3. git push -f origin gh-pages:gh-pages # force the push of the gh-pages branch to the remote gh-pages branch at origin
+4. git branch -D gh-pages # delete the local gh-pages because you will need it: ref
